@@ -1,0 +1,5 @@
+int[] a;
+int x = 0, y = 0;
+if (a[0] > 0) x++; else y++;
+if (a[1] > 0) x++; else y++;
+assert x + y == 2;
