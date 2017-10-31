@@ -15,5 +15,5 @@ fof(associativity,axiom, ! [X,Y,Z] : mult(mult(X,Y),Z) = mult(X,mult(Y,Z))).
 
 % fof(a,axiom,a!=e).
 
-fof(a,axiom,$distinct(a,b,c)).
-% fof(a,axiom,![X]:(X = a | X = b | X = c)).
+ fof(a,axiom,$distinct(a,b,c)).
+ fof(a,axiom,![X]:(X = a | X = b | X = c)).
